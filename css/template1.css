@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color:rgba(215, 218, 78, 0.877);
+    min-height: 50px;
+    opacity: 0.5;
+}
+.container {
+    max-width: 1100px;
+    margin: auto;
+}
+ #ff{
+    margin-top: 20px;
+    color: purple;
+  background-color: white;
+  text-align: start;
+  max-width: 210px;
+  margin-left: 90px;
+  font-size: 20px;
+  
+}
+#banner :first-child p{
+    margin-bottom: 45px;
+}
+    
+#topwork{
+    background-color: #eeebe3;
+    min-height: 540px;
+    margin-bottom: 50px;
+}
+
+#banner{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 0 0;
+    font-family:sans-serif
+}
+
+#banner >:first-child button{
+   padding: 15px 20px;
+    border: none;
+    border-radius: 7px;
+}
+#button_getstarted{
+  
+    background-color: black;
+    color: white;
+    font-weight: 500;
+    font-weight: bold;
+  
+}
+#button_getintouch{
+  
+    background-color: white;
+    color: black;
+    font-weight: 500;
+    font-weight: bold;
+    margin-left: 25px;
+}
+#banner_image{
+    height: 321px;
+    max-width: 506px;
+    display: flex;
+}
+
+/* #eeebe3 */
+#banner_head{
+    font-size: 45px;
+}
+
+#banner_image{
+    justify-content: center;
+    padding-bottom: 20px;
+ }
+ /* #beside_image{
+    border: 1px solid rgb(194, 42, 42);
+ }
+ #para1{
+    border: 1px solid greenyellow;
+ } */
+ #down_image{
+    background-repeat: no-repeat;
+   
+background-size: contain;
+background-image: url(../images/real\ 1.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+width:auto;
+min-height: 360px;
+background-position: center;
+margin-bottom: 50px;
+border-radius: 20px;
+ }
+
+ #para_dri{
+padding-top: 250px;
+font-size: 39px;
+padding-left: 20px;
+color: white;
+font-family: serif;
+font-weight: bolder;
+ }
+
+ #years{
+    font-size: 20px;
+ }
+ #fle{
+    display: flex;
+ }
+ #them{
+    color: white;
+    text-align: right;
+    padding-left: 450px;
+    padding-top: 280px;
+font-weight: bolder;
+font-size: 10px;
+}
+#bord{
+background-size: contain;
+}
+#coal{
+    display: flex;
+    background-color: white;
+    font-size: 20px;
+    padding-bottom: 30px; 
+}
+.column {
+  float: left;
+  width: 31%;
+  padding-left: 10px;
+  padding-right: 110px;
+  
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+
+    width: 121%;   
+}
+    .come {
+  padding-left: 200px;
+      text-align: left;
+    }
+ #lookat{
+    justify-content: space-between;
+    display: flex;
+   
+  
+ }
+#student{
+  background-color: blue;
+  min-height: 10px;
+  min-width: 20px;
+  background-size: cover;
+   
+}
