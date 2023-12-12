@@ -9,16 +9,27 @@
 }
 
 #topsection{
+    min-height: 400px;
+    background-image: url('../images/bg_banner.jpg');
+    background-size: cover;
+}
+#bg_image_cover{
     background-color: #3a0036;
     background: linear-gradient(-45deg, #4d0348, #3a0036);
     background: -webkit-linear-gradient(-45deg, #4d0348, #3a0036);
-    min-height: 400px;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 0;
+    opacity: 0.8;
 }
 
 header{
     min-height: 50px;
     background-color: white;
     opacity: 0.1;
+    z-index: 1;
+    position: relative;
 }
 
 #banner{
@@ -26,6 +37,8 @@ header{
     display: flex;
     justify-content: space-between;
     padding: 50px 0 0;
+    z-index: 1;
+    position: relative;
 }
 #banner > aside:first-child{
     flex: 1;
@@ -62,4 +75,38 @@ header{
 #btn_about{
     background-color: transparent;
     border: 1px solid white !important;
+}
+
+
+/* Card Section 1 */
+#cards_sect_1{
+    min-height: 50px;
+    /* background-color: #fec942; */
+}
+#card_grid1{
+    /* background-color: #24846a; */
+    padding: 40px 0;
+    gap: 20px;
+    display: flex;
+}
+
+#card_grid1 aside{
+    min-height: 30px;
+    /* background-color: red; */
+    flex: 1;
+    text-align: center;
+    /* border: 1px solid blue; */
+    box-shadow: 0 0 2px rgba(23, 23, 23, 0.616);
+    border-radius: 10px;
+}
+.icon_div{
+    color: #3a0036;
+    font-size: 2rem;
+    padding: 5px;
+}
+.icon_div svg{
+    height: 30px;
+    width: 30px;
+    color: white !important;
+    font-size: 3rem;
 }
