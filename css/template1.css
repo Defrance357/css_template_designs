@@ -66,6 +66,9 @@ header{
     height: 321px;
     max-width: 506px;
     display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    position: relative;
 }
 
 /* #eeebe3 */
@@ -73,10 +76,6 @@ header{
     font-size: 45px;
 }
 
-#banner_image{
-    justify-content: center;
-    padding-bottom: 20px;
- }
  /* #beside_image{
     border: 1px solid rgb(194, 42, 42);
  }
@@ -147,4 +146,55 @@ background-size: contain;
   padding-left: 200px;
       text-align: left;
     }
+<<<<<<< HEAD
  
+=======
+ #lookat{
+    justify-content: space-between;
+    display: flex;
+   
+  
+ }
+#student{
+  background-color: blue;
+  min-height: 10px;
+  min-width: 20px;
+  background-size: cover;
+   
+}
+
+/* Done By Destiny */
+#floatDiv{
+    min-height: 50px;
+    width: 200px;
+    background-color: white;
+    position: absolute;
+    bottom: 60px;
+    left: -60px;
+    border-radius: 10px;
+    box-shadow: -10px 10px 30px rgba(53, 73, 79, 0.505);
+    padding: 20px;
+    font-size: small;
+}
+
+#floatDiv aside:not(:last-child){
+    margin-bottom: 20px;
+}
+
+#floatDiv h4 span:first-child{
+    font-weight: 500;
+}
+
+#floatDiv h4{
+    display: flex;
+    justify-content: space-between;
+}
+.status-line{
+    width: 100%;
+    background-color: rgb(227, 232, 236);
+    height: 10px;
+    border-radius: 20px;
+    margin-top: 7px;
+    overflow: hidden;
+}
+>>>>>>> 5a999bb6ab62afc47edce68ffef38000847f2886
