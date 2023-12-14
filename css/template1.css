@@ -142,13 +142,12 @@ background-size: contain;
 
     width: 121%;   
 }
-    .come {
-  padding-left: 200px;
-      text-align: left;
-    }
-<<<<<<< HEAD
- 
-=======
+    
+.come {
+    padding-left: 200px;
+    text-align: left;
+}
+
  #lookat{
     justify-content: space-between;
     display: flex;
@@ -197,4 +196,3 @@ background-size: contain;
     margin-top: 7px;
     overflow: hidden;
 }
->>>>>>> 5a999bb6ab62afc47edce68ffef38000847f2886
