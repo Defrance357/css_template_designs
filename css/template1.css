@@ -20,8 +20,6 @@ header{
   max-width: 210px;
   margin-left: 90px;
   font-size: 20px;
-  padding: 7px; 
-  border-radius: 10px;
   
 }
 #banner :first-child p{
@@ -37,7 +35,7 @@ header{
 #banner{
     display: flex;
     justify-content: space-between;
-    padding: 40px 0 0;
+    padding: 60px 0 0;
     font-family:sans-serif
 }
 
@@ -142,6 +140,24 @@ background-size: contain;
 
     width: 121%;   
 }
+    .come {
+  padding-left: 200px;
+      text-align: left;
+    }
+ #lookat{
+    justify-content: space-between;
+    display: flex;
+   
+  
+ }
+#student{
+  background-color: blue;
+  min-height: 10px;
+  min-width: 20px;
+  background-size: cover;
+   
+}
+
     
 .come {
     padding-left: 200px;
